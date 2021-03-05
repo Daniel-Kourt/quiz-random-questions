@@ -28,8 +28,8 @@ body {
   height: auto;
   min-height: 350px;
   margin: 10px 10px;
-  -webkit-box-shadow: 0 5px 10px gray;
-          box-shadow: 0 5px 10px gray;
+  -webkit-box-shadow: 0 5px 10px #5c5b5b;
+          box-shadow: 0 5px 10px #5c5b5b;
   text-align: center;
   border-radius: 10px;
 }
@@ -63,7 +63,7 @@ body {
 
 .quiz-box li {
   padding: 5px 5px;
-  border: 1px solid orange;
+  border: 1px solid #e47327;
   background-color: #000;
   border-radius: 10px;
   text-align: center;
@@ -74,7 +74,7 @@ body {
 }
 
 .quiz-box ul li:hover {
-  background-color: orange;
+  background-color: #e47327;
   color: #fff;
   font-weight: 700;
 }
@@ -91,15 +91,20 @@ button {
   cursor: pointer;
   border-radius: 10px;
   font-size: 1.5rem;
-  background-color: gray;
-  color: orange;
+  background-color: #5c5b5b;
+  color: #e47327;
   letter-spacing: 2.5px;
   font-weight: 700;
 }
 
 button:hover {
-  background-color: orange;
+  background-color: #e47327;
   color: #fff;
+}
+
+.result {
+  font-size: 1.2rem;
+  color: #e47327;
 }
 
 @media only screen and (max-width: 768px) {

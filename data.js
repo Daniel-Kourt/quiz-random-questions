@@ -248,7 +248,188 @@ const quizData = [
             a4: "Real Sociedad"
         },
         correct: "a2"
-    }
+    },
+    {
+        question: "Manchester United famously wear red, but what colours did they wear before adopting red?",
+        answers: {
+            a1: "Black and white",
+            a2: "Blue",
+            a3: "Green",
+            a4: "Green and gold"
+        },
+        correct: "a4"
+    },
+    {
+        question: "Which club is associated with 'Galacticos'?",
+        answers: {
+            a1: "Boca Juniors",
+            a2: "River Plate",
+            a3: "Real Madrid",
+            a4: "Barcelona"
+        },
+        correct: "a3"
+    },
+    {
+        question: "Only three German clubs have won the European Cup/Champions League. Bayern Munich, Borussia Dortmund and ...?",
+        answers: {
+            a1: "Schalke",
+            a2: "Hamburg",
+            a3: "Leverkusen",
+            a4: "Herta Berlin"
+        },
+        correct: "a2"
+    },
+    {
+        question: "Denmark notably won Euro 92, despite the fact that they did not initially qualify. Which team did they replace?",
+        answers: {
+            a1: "Croatia",
+            a2: "Serbia",
+            a3: "Yugoslavia",
+            a4: "Ukraine"
+        },
+        correct: "a3"
+    },
+    {
+        question: "With three titles each, which two national teams have won the most European Championships?",
+        answers: {
+            a1: "Germany & Spain",
+            a2: "Germany & Italy",
+            a3: "Italy & France",
+            a4: "Italy & England"
+        },
+        correct: "a1"
+    },
+    {
+        question: "In which year was the first European Championship held?",
+        answers: {
+            a1: "1956",
+            a2: "1960",
+            a3: "1964",
+            a4: "1968"
+        },
+        correct: "a2"
+    },
+    {
+        question: "Which team was the first from the UK to win the European Cup?",
+        answers: {
+            a1: "Manchester United",
+            a2: "Leeds",
+            a3: "Celtic",
+            a4: "Liverpool"
+        },
+        correct: "a3"
+    },
+    {
+        question: "Who is the Champions League's top goalscorer of all time?",
+        answers: {
+            a1: "Raul",
+            a2: "Messi",
+            a3: "Cristiano Ronaldo",
+            a4: "Lewandowski"
+        },
+        correct: "a3"
+    },
+    {
+        question: "Which Portuguese team did Ronaldo play for before signing for Manchester United?",
+        answers: {
+            a1: "Porto",
+            a2: "Benfica",
+            a3: "Sporting Lisbon",
+            a4: "Boavista"
+        },
+        correct: "a3"
+    },
+    {
+        question: "Which team won the first Premier League title (1992-93)?",
+        answers: {
+            a1: "Arsenal",
+            a2: "Blackburn",
+            a3: "Manchester United",
+            a4: "Chelsea"
+        },
+        correct: "a3"
+    },
+    {
+        question: "With 202 clean sheets, which goalkeeper has the best record in the Premier League?",
+        answers: {
+            a1: "Peter Shilton",
+            a2: "David Seaman",
+            a3: "David de Gea",
+            a4: "Petr Cech"
+        },
+        correct: "a4"
+    },
+    {
+        question: "Which country won the World Cup in 1982?",
+        answers: {
+            a1: "Italy",
+            a2: "Germany",
+            a3: "Argentina",
+            a4: "Brazil"
+        },
+        correct: "a1"
+    },
+    {
+        question: "Which country won the World Cup in 1998?",
+        answers: {
+            a1: "Brazil",
+            a2: "France",
+            a3: "Italy",
+            a4: "Germany"
+        },
+        correct: "a2"
+    },
+    {
+        question: "Three people have won the World Cup as a player and as a coach. Mario Zagallo, Didier Deschamps and...?",
+        answers: {
+            a1: "Johan Cruyff",
+            a2: "Laurent Blanc",
+            a3: "Franz Beckenbauer",
+            a4: "Raymond Domenech"
+        },
+        correct: "a3"
+    },
+    {
+        question: "Which team won the Champions League in 1996-97?",
+        answers: {
+            a1: "Juventus",
+            a2: "Borussia Dortmund",
+            a3: "Ajax",
+            a4: "Real Madrid"
+        },
+        correct: "a2"
+    },
+    {
+        question: "Which team won the Champions League in 1994-95?",
+        answers: {
+            a1: "Ajax",
+            a2: "Milan",
+            a3: "Marseille",
+            a4: "Real Madrid"
+        },
+        correct: "a1"
+    },
+    {
+        question: "Which team won the Champions League in 2011-12?",
+        answers: {
+            a1: "Barcelona",
+            a2: "Bayern Munich",
+            a3: "Chelsea",
+            a4: "Real Madrid"
+        },
+        correct: "a3"
+    },
+    {
+        question: "Which team won the Champions League in 2003-04?",
+        answers: {
+            a1: "Milan",
+            a2: "Liverpool",
+            a3: "Porto",
+            a4: "Juventus"
+        },
+        correct: "a3"
+    }   
+
 
 ]
 

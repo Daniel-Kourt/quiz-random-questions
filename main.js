@@ -16,21 +16,20 @@ document.getElementById("start").addEventListener("click", () => {
     centralBox.style.display = "block";
 
     chooseQuestions();
-
 });
-
 
 
 let current = 0; // the number of current question (0-9)
 let score = 0;      // total score
-let randomQuestions = []; // an array with the random selected questions
-var numberQuestion = 0; // the current question from the list of Questions
+let randomQuestions = []; // an array with the random selected questions numbers
+var numberQuestion = 0; // the current question from the list of selected questions (0-9)
 
-/* ------- Choose 10 random questions from the list ----------------*/ 
+
+/* ------- Choose 10 random questions numbers from the list ----------------*/ 
 function chooseQuestions() {
 
     while(randomQuestions.length < 10){
-        var r = Math.floor(Math.random() * 25);
+        var r = Math.floor(Math.random() * quizData.length);
         if(randomQuestions.indexOf(r) === -1) {
             randomQuestions.push(r);
         }
@@ -94,7 +93,9 @@ function checkAnswer() {
 
 
         setTimeout(() => {
-            centralBox.innerHTML = `<p>Correct Answers: ` + score + `/${randomQuestions.length}` + `</p>` + scoreResult +`<p></p><br><button onclick="location.reload()">Play again</button>`;
+            centralBox.innerHTML = `<p>Correct Answers: ` + score + `/${randomQuestions.length}` 
+            + `</p><p class="result">` + scoreResult 
+            + `</p><br><button onclick="location.reload()">Play again</button>`;
         }, 1000);
 
     }          
